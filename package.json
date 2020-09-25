@@ -1,0 +1,20 @@
+{
+    "name": "backend-for-image-uploader",
+    "version": "1.0.0",
+    "description": "Backend for image uploader",
+    "main": "app.js",
+    "scripts": {
+        "start": "node ./app.js",
+        "dev": "nodemon ./app.js"
+    },
+    "keywords": [],
+    "author": "Jhonatan Castillo",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "multer": "^1.4.2"
+    }
+}
